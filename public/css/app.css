@@ -10884,3 +10884,7 @@ a.text-dark:focus {
   }
 }
 
+.footer {
+  border-top: 2px solid #666;
+}
+
