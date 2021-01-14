@@ -18,3 +18,6 @@ Route::get('help',"StaticPageController@help")->name('help');
 Route::get("home","StaticPageController@home")->name('home');
 
 Route::get('create','UserController@create')->name('create');
+
+
+Route::resource('user', 'UserController');

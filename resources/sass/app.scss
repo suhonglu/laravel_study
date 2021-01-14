@@ -2,3 +2,14 @@
 .footer{
     border-top: 2px solid #666;
 }
+
+.user_info{
+    padding-bottom: 20px;
+    margin-top: 10px;
+    text-align: center;
+    .gravatar{
+        max-width: 70px;
+        float: none;
+        border-radius: 50%;
+    }
+}
