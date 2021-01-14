@@ -9,6 +9,7 @@
 </head>
 <body>
     @include('layout._header')
+    @include('user._message')
     @yield('content')
     @include('layout._footer')
 </body>
